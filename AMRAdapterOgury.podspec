@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterOgury'
-  s.version          = '3.0.1.3'
+  s.version          = '3.0.1.4'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
                             Copyright 2016
                             Admost Mediation Limited.
