@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterOgury'
-  s.version          = '3.0.0.1'
+  s.version          = '3.0.1.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
                             Copyright 2016
                             Admost Mediation Limited.
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.vendored_frameworks = 'AMRAdapterOgury/Libs/AMRAdapterOgury.xcframework'
   s.dependency 'AMRSDK', '~> 1.5.9'
-  s.dependency 'OguryAds', '2.5.0'
+  s.dependency 'OguryAds', '3.0.1'
 end
 
