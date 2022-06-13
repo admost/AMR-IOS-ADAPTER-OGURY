@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'AMRAdapterOgury'
+  s.name             = 'AMRAdapterOgury-Beta'
   s.version          = '3.0.1.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
                             Copyright 2016
@@ -18,7 +18,16 @@ Pod::Spec.new do |s|
   s.platform      = :ios
   s.ios.deployment_target = '10.0'
   s.vendored_frameworks = 'AMRAdapterOgury/Libs/AMRAdapterOgury.xcframework'
-  s.dependency 'AMRSDK', '~> 1.5.17'
-  s.dependency 'OguryAds', '3.0.1'
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 arm64'}
+  s.swift_version = '5.0'
+  s.swift_versions = [
+    "4.0",
+    "4.2",
+    "5.0"
+  ]
+  s.static_framework = true
+  s.dependency 'AMRSDK-Beta', '~> 1.5.17'
+  s.dependency 'OgurySdk'
 end
 
