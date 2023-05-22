@@ -3,6 +3,10 @@
 Changelog for AMRAdapterOgury. 
 OgurySdk [changelog](https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk)
 
+## [4.1.2.0] - 2023-05-22
+### Updated
+- Offical release for OgurySdk 4.1.2
+
 ## [4.1.1.0] - 2023-03-14
 ### Updated
 - Offical release for OgurySdk 4.1.1
