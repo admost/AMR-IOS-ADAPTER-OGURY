@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterOgury'
-  s.version          = '4.2.2.0'
+  s.version          = '5.2.3'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
                             Copyright 2016
                             Admost Mediation Limited.
@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
                 }
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform      = :ios
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
   s.vendored_frameworks = 'AMRAdapterOgury/Libs/AMRAdapterOgury.xcframework'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.swift_versions = ['5']
   s.static_framework = true
-  s.dependency 'AMRSDK', '~> 1.5.17'
-  s.dependency 'OgurySdk', '4.2.2'
+  s.dependency 'AMRSDK', '~> 1.5.85'
+  s.dependency 'OgurySdk', '5.2.3'
 end
 

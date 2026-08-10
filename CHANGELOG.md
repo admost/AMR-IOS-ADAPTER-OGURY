@@ -3,6 +3,13 @@
 Changelog for AMRAdapterOgury. 
 OgurySdk [changelog](https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk)
 
+## [5.2.3] - 2026-08-10
+### Updated
+- Official release for OgurySdk 5.2.3
+- SPM support added
+- Minimum iOS version raised to 12.0 (required by OgurySdk 5.2.3)
+- Migrated to the Ogury 5.x API: Ogury.startWith:completionHandler:, OguryBannerAdView, OguryRewardedAd and the renamed delegates
+
 ## [4.2.2.0] - 2023-11-23
 ### Updated
 - Offical release for OgurySdk 4.2.2
